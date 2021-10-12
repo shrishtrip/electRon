@@ -117,6 +117,16 @@
 </category>
 
 <category>
+    <pattern>* introduce yourself * </pattern>
+    <template><srai>What is your name</srai></template>
+</category>
+
+<category>
+    <pattern>* tell me about youself * </pattern>
+    <template><srai>What is your name</srai></template>
+</category>
+
+<category>
     <pattern>* are you alive</pattern>
     <template>Hell Yeah!!!</template>
 </category>
