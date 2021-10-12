@@ -198,16 +198,79 @@
       <pattern>Good night</pattern>
       <template> Good Night <get name = "username"></get> Thanks for the conversation! </template>  
    </category>  
+
+<category>
+  <pattern>* Good night *</pattern>
+  <template>
+     <srai>Good night</srai>
+  </template>
+</category>   
+
+<category>
+  <pattern>* Good night</pattern>
+  <template>
+     <srai>Good night</srai>
+  </template>
+</category>   
+
+<category>
+  <pattern>Good night *</pattern>
+  <template>
+     <srai>Good night</srai>
+  </template>
+</category>   
    
 <category>
       <pattern>Good Morning</pattern>
       <template> Good Morning <get name = "username"></get></template>  
    </category> 
    
+<category>
+  <pattern>* Good Morning *</pattern>
+  <template>
+     <srai>Good Morning</srai>
+  </template>
+</category>   
+
+<category>
+  <pattern>* Good Morning</pattern>
+  <template>
+     <srai>Good Morning</srai>
+  </template>
+</category>   
+
+<category>
+  <pattern>Good Morning *</pattern>
+  <template>
+     <srai>Good Morning</srai>
+  </template>
+</category>   
+
    <category>
       <pattern>Good Afternoon</pattern>
       <template> Good Afternoon <get name = "username"></get></template>  
    </category> 
+
+<category>
+  <pattern>* Good Afternoon *</pattern>
+  <template>
+     <srai>Good Afternoon</srai>
+  </template>
+</category>   
+
+<category>
+  <pattern>* Good Afternoon</pattern>
+  <template>
+     <srai>Good Afternoon</srai>
+  </template>
+</category>   
+
+<category>
+  <pattern>Good Afternoon *</pattern>
+  <template>
+     <srai>Good Afternoon</srai>
+  </template>
+</category>    
    
 <category>
       <pattern>BYE</pattern>
@@ -221,7 +284,12 @@
   </template>
 </category>
 
-
+<category>
+  <pattern>* BYE *</pattern>
+  <template>
+     <srai>BYE</srai>
+  </template>
+</category>
 
 
 
