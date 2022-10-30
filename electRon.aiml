@@ -1740,29 +1740,8 @@
     <template><srai>* faculty</srai></template>
 </category>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <category>
-<pattern>TELL ME A JOKE</pattern>
+<pattern>* Tell me a joke</pattern>
 
 <template><random>
 <li>I met a Dutch girl with inflatable shoes last week, phoned her up to arrange a date but unfortunately she'd popped her clogs.  </li>
@@ -1912,6 +1891,22 @@
 
 </random></template>
 </category>
+
+<category>
+    <pattern>* Tell me a joke *</pattern>
+    <template><srai>* Tell me a joke</srai></template>
+</category>
+
+<category>
+    <pattern>Tell me a joke *</pattern>
+    <template><srai>* Tell me a joke</srai></template>
+</category>
+
+<category>
+    <pattern>Tell me a joke</pattern>
+    <template><srai>* Tell me a joke</srai></template>
+</category>
+
 
 
 <category>
