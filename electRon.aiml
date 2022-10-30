@@ -1892,8 +1892,6 @@
 </random></template>
 </category>
 
-
-
 <category>
     <pattern>* Tell me a joke *</pattern>
     <template><srai>* Tell me a joke</srai></template>
@@ -1909,6 +1907,48 @@
     <template><srai>* Tell me a joke</srai></template>
 </category>
 
+
+
+<category>
+<pattern>TELL ME AN INTERESTING FACT</pattern>
+
+<template><random>
+<li>In 1889, the Queen of Italy, Margherita Savoy, ordered the first pizza delivery.</li>
+
+
+<li>You can buy eel-flavored ice cream in Japan.</li>
+
+
+<li>It's considered rude to write in red ink in Portugal.</li>
+
+
+<li>The elusive bobcat is the most common wildcat in North America.</li>
+
+<li>A cat's tail contains nearly 10 percent of the bones in its body.</li>
+
+<li>Gecko feet have millions of tiny hairs.</li>
+
+<li>The word Astronaut is rooted in the Greek language.</li>
+
+<li>We really are made of stardust.</li>
+
+<li>The Nile crocodile can hold its breath underwater for up to two hours.</li>
+
+<li>Jellyfish are not fish.</li>
+
+<li>The Chinese Giant Salamander can grow up to 6 feet long.</li>
+
+<li>People reportedly prefer blue toothbrushes over red ones.</li>
+
+<li>Some people used to believe that kissing a donkey could relieve a toothache.</li>
+
+<li>Scientists say the best time to take a nap is between 1 p.m. and 2:30 p.m.</li>
+
+<li>A day in the age of dinosaurs was just 23 hours long.
+Earth's days are getting longer.</li>
+
+</random></template>
+</category>
 
 
 </aiml>
