@@ -1929,7 +1929,7 @@
 
 
 <category>
-<pattern>TELL ME AN INTERESTING FACT</pattern>
+<pattern>*  Tell me an interesting fact</pattern>
 
 <template><random>
 <li>In 1889, the Queen of Italy, Margherita Savoy, ordered the first pizza delivery.</li>
@@ -1969,5 +1969,19 @@ Earth's days are getting longer.</li>
 </random></template>
 </category>
 
+<category>
+    <pattern>* *  Tell me an interesting fact *</pattern>
+    <template><srai>* *  Tell me an interesting fact</srai></template>
+</category>
+
+<category>
+    <pattern>*  Tell me an interesting fact *</pattern>
+    <template><srai>* *  Tell me an interesting fact</srai></template>
+</category>
+
+<category>
+    <pattern>*  Tell me an interesting fact</pattern>
+    <template><srai>* *  Tell me an interesting fact</srai></template>
+</category>
 
 </aiml>
